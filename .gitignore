@@ -1,0 +1,42 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore PostgreSQL database files
+*.db
+
+# Ignore Node.js build artifacts
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+/package-lock.json
+/yarn.lock
+
+# Ignore Docker build artifacts
+*.dockerignore
+**/Dockerfile*
+**/docker-compose*.yml
+
+# Ignore Kubernetes configuration files
+**/*.yaml
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
